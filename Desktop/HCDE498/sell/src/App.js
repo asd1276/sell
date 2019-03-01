@@ -24,34 +24,6 @@ class App extends Component {
           </Form.Group>
         </Form.Row>
 
-        <Form.Group as={Col} controlId="formGridAddress1">
-          <Form.Label>Address</Form.Label>
-          <Form.Control placeholder="1234 Main St" />
-        </Form.Group>
-
-        <Form.Group as={Col} controlId="formGridAddress2">
-          <Form.Label>Address 2</Form.Label>
-          <Form.Control placeholder="Apartment, studio, or floor" />
-        </Form.Group>
-
-        <Form.Row>
-          <Form.Group as={Col} controlId="formGridCity">
-            <Form.Label>City</Form.Label>
-            <Form.Control />
-          </Form.Group>
-
-          <Form.Group as={Col} controlId="stateName">
-            <Form.Label>State</Form.Label>
-            <Form.Control />
-          </Form.Group>
-
-
-          <Form.Group as={Col} controlId="formGridZip">
-            <Form.Label>Zip</Form.Label>
-            <Form.Control />
-          </Form.Group>
-        </Form.Row>
-
         <Form.Group as={Col} controlId="textbookQuality">
           <Form.Label>Textbook Quality</Form.Label>
           <Form.Control as="select">
@@ -61,6 +33,17 @@ class App extends Component {
             <option>4</option>
             <option>5 (Great)</option>
           </Form.Control>
+        </Form.Group>
+
+        <Form.Group as={Col} controlId="bookPrice">
+          <Form.Label>Textbook Price ($)</Form.Label>
+          <Form.Control placeholder="00.00" />
+        </Form.Group>
+
+
+        <Form.Group as={Col} controlId="formGridAddress1">
+          <Form.Label>Seller Location</Form.Label>
+          <Form.Control placeholder="University Village" />
         </Form.Group>
 
         <Col>
